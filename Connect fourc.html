@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connect four (2 igraca)</title>
+    <link rel="stylesheet" href="Cfcstyle.css" type="text/css">
+    <link rel="icon" href="Connect4.png">
+  </head>
+  <body>
+    <div id="x">
+      <div class="naslov">
+        <h1>Connect four</h1>
+      </div>
+      <div class="koigra">
+        <h3>Igru počinje:</h3>
+        <h4>CRVENI</h4>
+      </div>
+      <div class="tabela">
+        <table>
+          <tr>
+            <td><input type="button" class="dugmic" id="0" value="IGRAJ" onclick="potez(0)"></td>
+            <td><input type="button" class="dugmic" id="1" value="IGRAJ" onclick="potez(1)"></td>
+            <td><input type="button" class="dugmic" id="2" value="IGRAJ" onclick="potez(2)"></td>
+            <td><input type="button" class="dugmic" id="3" value="IGRAJ" onclick="potez(3)"></td>
+            <td><input type="button" class="dugmic" id="4" value="IGRAJ" onclick="potez(4)"></td>
+            <td><input type="button" class="dugmic" id="5" value="IGRAJ" onclick="potez(5)"></td>
+            <td><input type="button" class="dugmic" id="6" value="IGRAJ" onclick="potez(6)"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d00" disabled></td>
+            <td><input type="button" class="dugme" id="d01" disabled></td>
+            <td><input type="button" class="dugme" id="d02" disabled></td>
+            <td><input type="button" class="dugme" id="d03" disabled></td>
+            <td><input type="button" class="dugme" id="d04" disabled></td>
+            <td><input type="button" class="dugme" id="d05" disabled></td>
+            <td><input type="button" class="dugme" id="d06" disabled></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d10" disabled></td>
+            <td><input type="button" class="dugme" id="d11" disabled></td>
+            <td><input type="button" class="dugme" id="d12" disabled></td>
+            <td><input type="button" class="dugme" id="d13" disabled></td>
+            <td><input type="button" class="dugme" id="d14" disabled></td>
+            <td><input type="button" class="dugme" id="d15" disabled></td>
+            <td><input type="button" class="dugme" id="d16" disabled></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d20" disabled></td>
+            <td><input type="button" class="dugme" id="d21" disabled></td>
+            <td><input type="button" class="dugme" id="d22" disabled></td>
+            <td><input type="button" class="dugme" id="d23" disabled></td>
+            <td><input type="button" class="dugme" id="d24" disabled></td>
+            <td><input type="button" class="dugme" id="d25" disabled></td>
+            <td><input type="button" class="dugme" id="d26" disabled></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d30" disabled></td>
+            <td><input type="button" class="dugme" id="d31" disabled></td>
+            <td><input type="button" class="dugme" id="d32" disabled></td>
+            <td><input type="button" class="dugme" id="d33" disabled></td>
+            <td><input type="button" class="dugme" id="d34" disabled></td>
+            <td><input type="button" class="dugme" id="d35" disabled></td>
+            <td><input type="button" class="dugme" id="d36" disabled></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d40" disabled></td>
+            <td><input type="button" class="dugme" id="d41" disabled></td>
+            <td><input type="button" class="dugme" id="d42" disabled></td>
+            <td><input type="button" class="dugme" id="d43" disabled></td>
+            <td><input type="button" class="dugme" id="d44" disabled></td>
+            <td><input type="button" class="dugme" id="d45" disabled></td>
+            <td><input type="button" class="dugme" id="d46" disabled></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="dugme" id="d50" disabled></td>
+            <td><input type="button" class="dugme" id="d51" disabled></td>
+            <td><input type="button" class="dugme" id="d52" disabled></td>
+            <td><input type="button" class="dugme" id="d53" disabled></td>
+            <td><input type="button" class="dugme" id="d54" disabled></td>
+            <td><input type="button" class="dugme" id="d55" disabled></td>
+            <td><input type="button" class="dugme" id="d56" disabled></td>
+          </tr>
+        </table>
+      </div>
+      <div class="pobjednik">
+        <h1 id="kojepob"></h1>
+      </div>
+      <div class="upustvo">
+        <h2 id="Up"></h2>
+        <p id="Upustvo"></p>
+      </div>
+      <div class="oprojektu">
+        <h2 id="Op"></h2>
+        <p id="O projektu"></p>
+      </div>
+      <div class="menu">
+        <table>
+          <tr>
+            <td><a href="Connect four 1.html"><input type="button" class="meni" value="Nova igra (1 igrač)"></a></td>
+            <td><a href="Connect four.html"><input type="button" class="meni" value="Nova igra (2 igrača)"></a></td>
+            <td><input type="button" class="meni" value="Upute" onclick="upustvo()"></td>
+            <td><input type="button" class="meni" value="O projektu" onclick="oprojektu()"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="lista">
+
+      </div>
+      <script type="text/javascript" src="jsc.js"></script>
+    </div>
+  </body>
+</html>

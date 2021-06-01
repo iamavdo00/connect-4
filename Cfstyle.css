@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #99ff33;
+  background-position: center;
+  background-size: cover;
+}
+#x{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.koigra{
+  position: absolute;
+  top: 40%;
+  float: left;
+  left: 3%;
+  width: 30%;
+  height: 20%;
+  text-align: center;
+}
+.koigra h3{
+  color: black;
+  font-family: sans-serif;
+  font-size: 250%;
+}
+.koigra h4{
+  color: blue;
+  font-family: sans-serif;
+  font-size: 250%;
+}
+.dugme{
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+}
+.dugmic{
+  height: 35px;
+  width: 50px;
+  background-color: orange;
+}
+.upustvo{
+  position: absolute;
+  float: right;
+  top: 15%;
+  right: 3%;
+  width: 30%;
+  height: 20%;
+}
+.upustvo h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.oprojektu{
+  position: absolute;
+  float: right;
+  top: 35%;
+  right: 3%;
+  width: 30%;
+  height: 30%;
+}
+.oprojektu h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.menu{
+  position: absolute;
+  height: 10%;
+  width: 60%;
+  top: 75%;
+  text-align: center;
+  margin-left: 1%;
+}
+.meni{
+  padding: 7px 8px;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
+.pobjednik{
+  position: absolute;
+  top: 85%;
+  height: 10%;
+  width: 100%;
+}
+.pobjednik h1{
+  text-align: center;
+  font-weight: 900;
+  font-size: 250%;
+}
+.naslov{
+  position: absolute;
+  top: 3%;
+  float: left;
+  width: 70%;
+  height: 15%;
+}
+.naslov h1{
+  padding-left: 50.4%;
+  font-size: 400%;
+}
+.tabela{
+  position: absolute;
+  top: 15%;
+  float: left;
+  left: 35%;
+}
